@@ -77,7 +77,491 @@ return {
 	settings_misc_snapshot = "Snapshots";
 	settings_misc_language = "Languages";
 	settings_misc_cooldowns = "Hide Cooldowns";
-
+	
+	
+	-- // Chat messages
+	
+	chat_greeting = "Greetings";
+	chat_greeting_1 = "Hi";
+	chat_greeting_2 = "Hello";
+	chat_greeting_3 = "Hey";
+	chat_greeting_4 = "Hi there!";
+	chat_greeting_5 = "Hi everyone";
+	chat_greeting_6 = "Howdy";
+	chat_greeting_7 = "Howdy partner!";
+	chat_greeting_8 = "Greetings everyone";
+	chat_greeting_9 = "Greetings Robloxians!";
+	chat_greeting_10 = "Seasons greetings!";
+	chat_greeting_11 = "Welcome";
+	chat_greeting_12 = "Welcome to my place";
+	chat_greeting_13 = "Welcome to our base";
+	chat_greeting_14 = "Welcome to my barbeque";
+	chat_greeting_15 = "Hey there!";
+	chat_greeting_16 = "What's up?";
+	chat_greeting_17 = "How are you doing?";
+	chat_greeting_18 = "What's new?";
+	chat_greeting_19 = "Good day";
+	chat_greeting_20 = "Good morning";
+	chat_greeting_21 = "Good afternoon";
+	chat_greeting_22 = "Good evening";
+	chat_greeting_23 = "Good night";
+	chat_greeting_24 = "Waaaaaaaz up?!";
+	chat_greeting_25 = "Hullo!";
+	chat_greeting_26 = "Behold greatness, mortals!";
+	chat_greeting_27 = "Pardon me, is this Sparta?";
+	chat_greeting_28 = "THIS IS SPARTAAAA!";
+	chat_greeting_29 = "alguem br"; -- Note: don't translate this
+	chat_greeting_30 = "Happy Holidays!";
+	chat_greeting_31 = "Happy New Year!";
+	chat_greeting_32 = "Happy Valentine's Day!";
+	chat_greeting_33 = "Beware of the Ides of March!";
+	chat_greeting_34 = "Happy St. Patrick's Day!";
+	chat_greeting_35 = "Happy Easter!";
+	chat_greeting_36 = "Happy Earth Day!";
+	chat_greeting_37 = "Happy 4th of July!";
+	chat_greeting_38 = "Happy Thanksgiving!";
+	chat_greeting_39 = "Happy Halloween!";
+	chat_greeting_40 = "Happy Hanukkah!";
+	chat_greeting_41 = "Merry Christmas!";
+	chat_greeting_42 = "Happy May Day!";
+	chat_greeting_43 = "Happy Towel Day!";
+	chat_greeting_44 = "Happy ROBLOX Day!";
+	chat_greeting_45 = "Happy LOL Day!";
+	
+	chat_bye = "Goodbye";
+	chat_bye_1 = "Good Night";
+	chat_bye_2 = "Sweet dreams";
+	chat_bye_3 = "Go to sleep!";
+	chat_bye_4 = "Lights out!";
+	chat_bye_5 = "Bedtime";
+	chat_bye_6 = "Going to bed now";
+	chat_bye_7 = "Later";
+	chat_bye_8 = "See ya later";
+	chat_bye_9 = "Later gator!";
+	chat_bye_10 = "See you tomorrow";
+	chat_bye_11 = "Bye";
+	chat_bye_12 = "Hasta la bye bye!";
+	chat_bye_13 = "I'll be right back";
+	chat_bye_14 = "I have to go";
+	chat_bye_15 = "Farewell";
+	chat_bye_16 = "Take care";
+	chat_bye_17 = "Have a nice day";
+	chat_bye_18 = "Goodluck!";
+	chat_bye_19 = "Ta-ta for now!";
+	chat_bye_20 = "Peace";
+	chat_bye_21 = "Peace out!";
+	chat_bye_22 = "Peace dudes!";
+	chat_bye_23 = "Rest in pieces!";
+	chat_bye_24 = "To the batcave!";
+	chat_bye_25 = "Over and out!";
+	chat_bye_26 = "Happy trails!";
+	chat_bye_27 = "I've got to book it!";
+	chat_bye_28 = "Tootles!";
+	chat_bye_29 = "Smell you later!";
+	chat_bye_30 = "GG!";
+	chat_bye_31 = "My house is on fire! gtg.";
+	
+	chat_friend = "Friend";
+	chat_friend_1 = "Wanna be friends?";
+	chat_friend_2 = "Follow me";
+	chat_friend_3 = "Come to my place!";
+	chat_friend_4 = "Follow me, team!";
+	
+	chat_place = "Your place is cool";
+	chat_place_1 = "Your place is fun";
+	chat_place_2 = "Your place is awesome";
+	chat_place_3 = "Your place looks good";
+	chat_place_4 = "This place is awesome!";
+	
+	chat_thanks = "Thank you";
+	chat_thanks_1 = "Thank for playing";
+	chat_thanks_2 = "Thank for visiting";
+	chat_thanks_3 = "Thank for everything";
+	chat_thanks_4 = "No, thank you";
+	chat_thanks_5 = "Thanx";
+	
+	chat_reassuring = "No problem";
+	chat_reassuring_1 = "Don't worry";
+	chat_reassuring_2 = "That's ok";
+	chat_reassuring_3 = "np";
+	
+	chat_you = "You are ...";
+	chat_you_1 = "You are great!";
+	chat_you_2 = "You are good!";
+	chat_you_3 = "You are cool!";
+	chat_you_4 = "You are funny!";
+	chat_you_5 = "You are silly!";
+	chat_you_6 = "You are awesome!";
+	chat_you_7 = "You are doing something I don't like, please stop";
+	
+	chat_like = "I like ...";
+	chat_like_1 = "I like your name";
+	chat_like_2 = "I like your shirt";
+	chat_like_3 = "I like your place";
+	chat_like_4 = "I like your style";
+	chat_like_5 = "I like you";
+	chat_like_6 = "I like items";
+	chat_like_7 = "I like money";
+	
+	chat_sorry = "Sorry";
+	chat_sorry_1 = "My bad!";
+	chat_sorry_2 = "I'm sorry";
+	chat_sorry_3 = "Whoops!";
+	chat_sorry_4 = "Please forgive me.";
+	chat_sorry_5 = "I forgive you.";
+	chat_sorry_6 = "I didn't mean to do that.";
+	chat_sorry_7 = "Sorry, I'll stop now.";
+	
+	chat_questions = "Questions";
+	chat_questions_1 = "Who?";
+	chat_questions_2 = "Who wants to be my friend?";
+	chat_questions_3 = "Who wants to be on my team?";
+	chat_questions_4 = "Who made this brilliant game?";
+	chat_questions_5 = "LOLWHO?";
+	chat_questions_6 = "What?";
+	chat_questions_7 = "What is your favorite animal?";
+	chat_questions_8 = "What is your favorite game?";
+	chat_questions_9 = "What is your favorite movie?";
+	chat_questions_10 = "What is your favorite TV show?";
+	chat_questions_11 = "What are your hobbies?";
+	chat_questions_12 = "LOLWUT?";
+	chat_questions_13 = "When?";
+	chat_questions_14 = "When are you online?";
+	chat_questions_15 = "When is the new version coming out?";
+	chat_questions_16 = "When can we play again?";
+	chat_questions_17 = "When will your place be done?";
+	chat_questions_18 = "Where?";
+	chat_questions_19 = "Where do you want to go?";
+	chat_questions_20 = "Where are you going?";
+	chat_questions_21 = "Where am I?!";
+	chat_questions_22 = "Where did you go?";
+	chat_questions_23 = "How?";
+	chat_questions_24 = "How are you today?";
+	chat_questions_25 = "How did you make this cool place?";
+	chat_questions_26 = "LOLHOW?";
+	chat_questions_27 = "Can I ...";
+	chat_questions_28 = "Can I have a tour?";
+	chat_questions_29 = "Can I be on your team?";
+	chat_questions_30 = "Can I be your friend?";
+	chat_questions_31 = "Can I try something?";
+	chat_questions_32 = "Can I have that please?";
+	chat_questions_33 = "Can I have that back please?";
+	chat_questions_34 = "Can I borrow your hat?";
+	chat_questions_35 = "Can I borrow your gear?";
+	
+	chat_answers = "Answers";
+	chat_answers_1 = "You need help?";
+	chat_answers_2 = "Check out the news section";
+	chat_answers_3 = "Check out the help section";
+	chat_answers_4 = "Read the wiki!";
+	chat_answers_5 = "All the answers are in the wiki!";
+	chat_answers_6 = "I will help you with this.";
+	
+	chat_people = "Some people ...";
+	chat_people_1 = "Me";
+	chat_people_2 = "Not me";
+	chat_people_3 = "You";
+	chat_people_4 = "All of us";
+	chat_people_5 = "Everyone but you";
+	chat_people_6 = "My team";
+	chat_people_7 = "My group";
+	chat_people_8 = "Mom";
+	chat_people_9 = "Dad";
+	chat_people_10 = "Sister";
+	chat_people_11 = "Brother";
+	chat_people_12 = "Sibling";
+	chat_people_13 = "Cousin";
+	chat_people_14 = "Grandma";
+	chat_people_15 = "Grandpa";
+	chat_people_16 = "Grandparent";
+	chat_people_17 = "Friend";
+	
+	chat_time = "Time ...";
+	chat_time_1 = "In the morning";
+	chat_time_2 = "In the afternoon";
+	chat_time_3 = "At night";
+	chat_time_4 = "Tomorrow";
+	chat_time_5 = "This week";
+	chat_time_6 = "This month";
+	chat_time_7 = "Sometime";
+	chat_time_8 = "Sometimes";
+	chat_time_9 = "Whenever you want";
+	chat_time_10 = "Never";
+	chat_time_11 = "After this";
+	chat_time_12 = "In 10 minutes";
+	chat_time_13 = "In a couple hours";
+	chat_time_14 = "In a couple days";
+	
+	chat_animals = "Animals";
+	chat_animals_1 = "Cats";
+	chat_animals_2 = "Lion";
+	chat_animals_3 = "Tiger";
+	chat_animals_4 = "Leopard";
+	chat_animals_5 = "Cheetah";
+	chat_animals_6 = "Dogs";
+	chat_animals_7 = "Wolves";
+	chat_animals_8 = "Beagle";
+	chat_animals_9 = "Collie";
+	chat_animals_10 = "Dalmatian";
+	chat_animals_11 = "Poodle";
+	chat_animals_12 = "Spaniel";
+	chat_animals_13 = "Shepherd";
+	chat_animals_14 = "Terrier";
+	chat_animals_15 = "Retriever";
+	chat_animals_16 = "Horses";
+	chat_animals_17 = "Ponies";
+	chat_animals_18 = "Stalions";
+	chat_animals_19 = "Pwnyz";
+	chat_animals_20 = "Reptiles";
+	chat_animals_21 = "Dinosaurs";
+	chat_animals_22 = "Lizards";
+	chat_animals_23 = "Snakes";
+	chat_animals_24 = "Turtles!";
+	chat_animals_25 = "Hamster";
+	chat_animals_26 = "Monkey";
+	chat_animals_27 = "Bears";
+	chat_animals_28 = "Fish";
+	chat_animals_29 = "Goldfish";
+	chat_animals_30 = "Sharks";
+	chat_animals_31 = "Sea Bass";
+	chat_animals_32 = "Halibut";
+	chat_animals_33 = "Tropical Fish";
+	chat_animals_34 = "Birds";
+	chat_animals_35 = "Eagles";
+	chat_animals_36 = "Penguins";
+	chat_animals_37 = "Parakeets";
+	chat_animals_38 = "Owls";
+	chat_animals_39 = "Hawks";
+	chat_animals_40 = "Pidgeons";
+	chat_animals_41 = "Elephants";
+	chat_animals_42 = "Mythical Beasts";
+	chat_animals_43 = "Dragons";
+	chat_animals_44 = "Unicorns";
+	chat_animals_45 = "Sea Serpents";
+	chat_animals_46 = "Sphinx";
+	chat_animals_47 = "Cyclops";
+	chat_animals_48 = "Minotaurs";
+	chat_animals_49 = "Goblins";
+	chat_animals_50 = "Honest Politicians";
+	chat_animals_51 = "Ghosts";
+	chat_animals_52 = "Scylla and Charybdis";
+	
+	chat_games = "Games";
+	chat_games_1 = "Roblox";
+	chat_games_2 = "BrickBattle";
+	chat_games_3 = "Community Building";
+	chat_games_4 = "Roblox Minigames";
+	chat_games_5 = "Contest Place";
+	chat_games_6 = "Action";
+	chat_games_7 = "Puzzle";
+	chat_games_8 = "Strategy";
+	chat_games_9 = "Racing";
+	chat_games_10 = "RPG";
+	chat_games_11 = "Obstacle Course";
+	chat_games_12 = "Tycoon";
+	chat_games_13 = "Board games";
+	chat_games_14 = "Chess";
+	chat_games_15 = "Checkers";
+	chat_games_16 = "Settlers of Catan";
+	chat_games_17 = "Tigris and Euphrates";
+	chat_games_18 = "El Grande";
+	chat_games_19 = "Stratego";
+	chat_games_20 = "Carcassonne";
+	
+	chat_sports = "Sports";
+	chat_sports_1 = "Hockey";
+	chat_sports_2 = "Soccer";
+	chat_sports_3 = "Football";
+	chat_sports_4 = "Baseball";
+	chat_sports_5 = "Basketball";
+	chat_sports_6 = "Volleyball";
+	chat_sports_7 = "Tennis";
+	chat_sports_8 = "Sports team practice";
+	chat_sports_9 = "Surfing";
+	chat_sports_10 = "Swimming";
+	chat_sports_11 = "Water Polo";
+	chat_sports_12 = "Winter Sports";
+	chat_sports_13 = "Skiing";
+	chat_sports_14 = "Snowboarding";
+	chat_sports_15 = "Sledding";
+	chat_sports_16 = "Skating";
+	chat_sports_17 = "Adventure";
+	chat_sports_18 = "Rock climbing";
+	chat_sports_19 = "Hiking";
+	chat_sports_20 = "Fishing";
+	chat_sports_21 = "Horseback riding";
+	chat_sports_22 = "Wacky";
+	chat_sports_23 = "Foosball";
+	chat_sports_24 = "Calvinball";
+	chat_sports_25 = "Croquet";
+	chat_sports_26 = "Cricket";
+	chat_sports_27 = "Dodgeball";
+	chat_sports_28 = "Squash";
+	chat_sports_29 = "Trampoline";
+	
+	chat_movies = "Movies/TV";
+	chat_movies_1 = "Science Fiction";
+	chat_movies_2 = "Animated";
+	chat_movies_3 = "Anime";
+	chat_movies_4 = "Comedy";
+	chat_movies_5 = "Romantic";
+	chat_movies_6 = "Action";
+	chat_movies_7 = "Fantasy";
+	
+	chat_music = "Music";
+	chat_music_1 = "Country";
+	chat_music_2 = "Jazz";
+	chat_music_3 = "Rap";
+	chat_music_4 = "Hip-hop";
+	chat_music_5 = "Techno";
+	chat_music_6 = "Classical";
+	chat_music_7 = "Pop";
+	chat_music_8 = "Rock";
+	
+	chat_hobbies = "Hobbies";
+	chat_hobbies_1 = "Computers";
+	chat_hobbies_2 = "Building computers";
+	chat_hobbies_3 = "Videogames";
+	chat_hobbies_4 = "Coding";
+	chat_hobbies_5 = "Hacking";
+	chat_hobbies_6 = "The Internet";
+	chat_hobbies_7 = "lol. teh internets!";
+	chat_hobbies_8 = "Watching vids";
+	chat_hobbies_9 = "Dance";
+	chat_hobbies_10 = "Gymnastics";
+	chat_hobbies_11 = "Martial Arts";
+	chat_hobbies_12 = "Karate";
+	chat_hobbies_13 = "Judo";
+	chat_hobbies_14 = "Taikwon Do";
+	chat_hobbies_15 = "Wushu";
+	chat_hobbies_16 = "Street Fighting";
+	chat_hobbies_17 = "Listening to music";
+	chat_hobbies_18 = "Music lessons";
+	chat_hobbies_19 = "Playing in my band";
+	chat_hobbies_20 = "Playing piano";
+	chat_hobbies_21 = "Playing guitar";
+	chat_hobbies_22 = "Playing violin";
+	chat_hobbies_23 = "Playing drums";
+	chat_hobbies_24 = "Playing a weird instrument";
+	chat_hobbies_25 = "Arts and crafts";
+	
+	chat_mood = "Mood";
+	chat_mood_1 = "Good";
+	chat_mood_2 = "Great!";
+	chat_mood_3 = "Not bad";
+	chat_mood_4 = "Sad";
+	chat_mood_5 = "Hyper";
+	chat_mood_6 = "Chill";
+	chat_mood_7 = "Happy";
+	chat_mood_8 = "Kind of mad";
+	
+	chat_gender = "Gender";
+	chat_gender_1 = "Anything is okay";
+	chat_gender_2 = "Boy";
+	chat_gender_3 = "Girl";
+	chat_gender_4 = "Non-binary";
+	chat_gender_5 = "I don't want to say boy or girl. Don't ask.";
+	
+	chat_games2 = "Game";
+	chat_games2_1 = "Let's build";
+	chat_games2_2 = "Let's battle";
+	chat_games2_3 = "Nice one!";
+	chat_games2_4 = "So far so good!";
+	chat_games2_5 = "Lucky shot!";
+	chat_games2_6 = "Oh man!";
+	chat_games2_7 = "I challenge you to a fight!";
+	chat_games2_8 = "Help me with this";
+	chat_games2_9 = "Let's go to your game";
+	chat_games2_10 = "Can you show me how do to that?"; -- the typo exists in the file i found these strings from, this isn't a mistake on my part. would be funny if translations have a similar mistake
+	chat_games2_11 = "Backflip!";
+	chat_games2_12 = "Frontflip!";
+	chat_games2_13 = "Dance!";
+	chat_games2_14 = "I'm on your side!";
+	
+	chat_commands = "Game commands";
+	chat_commands_1 = "regen";
+	chat_commands_2 = "reset";
+	chat_commands_3 = "go";
+	chat_commands_4 = "fix";
+	chat_commands_5 = "respawn";
+	
+	chat_silly = "Silly";
+	chat_silly_1 = "Muahahahaha!";
+	chat_silly_2 = "all your base are belong to me!";
+	chat_silly_3 = "GET OFF MAH LAWN";
+	chat_silly_4 = "TEH EPIK DUCK IS COMING!!!";
+	chat_silly_5 = "ROFL";
+	chat_silly_6 = "1337";
+	chat_silly_7 = "i r teh pwnz0r!";
+	chat_silly_8 = "w00t!";
+	chat_silly_9 = "z0mg h4x!";
+	chat_silly_10 = "ub3rR0xXorzage!";
+	chat_silly_11 = "EZ";
+	chat_silly_12 = "pls can i win";
+	chat_silly_13 = "ro ka";
+	chat_silly_14 = "COMBO";
+	
+	chat_yes = "Yes";
+	chat_yes_1 = "Absolutely!";
+	chat_yes_2 = "Rock on!";
+	chat_yes_3 = "Totally!";
+	chat_yes_4 = "Juice!";
+	chat_yes_5 = "Yay!";
+	chat_yes_6 = "Yesh";
+	
+	chat_no = "No";
+	chat_no_1 = "Ummm. No.";
+	chat_no_2 = "...";
+	chat_no_3 = "Stop!";
+	chat_no_4 = "Go away!";
+	chat_no_5 = "Don't do that";
+	chat_no_6 = "Stop breaking the rules";
+	chat_no_7 = "I don't want to";
+	
+	chat_ok = "Ok";
+	chat_ok_1 = "Well... ok";
+	chat_ok_2 = "Sure";
+	
+	chat_uncertain = "Uncertain";
+	chat_uncertain_1 = "Maybe";
+	chat_uncertain_2 = "I don't know";
+	chat_uncertain_3 = "idk";
+	chat_uncertain_4 = "I can't decide";
+	chat_uncertain_5 = "Hmm...";
+	
+	chat_smiley = ":-)";
+	chat_smiley_1 = ":-(";
+	chat_smiley_2 = ":D";
+	chat_smiley_3 = ":-O";
+	chat_smiley_4 = "lol";
+	chat_smiley_5 = "=D";
+	chat_smiley_6 = "D=";
+	chat_smiley_7 = "XD";
+	chat_smiley_8 = ";D";
+	chat_smiley_9 = ";)";
+	chat_smiley_10 = "O_O";
+	chat_smiley_11 = "=)";
+	chat_smiley_12 = "@_@";
+	chat_smiley_13 = ">_<";
+	chat_smiley_14 = "T_T";
+	chat_smiley_15 = "_^";
+	chat_smiley_16 = "<(0_0<) <(0_0)> (>0_0)> KIRBY DANCE";
+	chat_smiley_17 = ")':";
+	chat_smiley_18 = ":3";
+	
+	chat_ratings = "Rating";
+	chat_ratings_1 = "Rate it!";
+	chat_ratings_2 = "I give it a 1 out of 10!";
+	chat_ratings_3 = "I give it a 2 out of 10!";
+	chat_ratings_4 = "I give it a 3 out of 10!";
+	chat_ratings_5 = "I give it a 4 out of 10!";
+	chat_ratings_6 = "I give it a 5 out of 10!";
+	chat_ratings_7 = "I give it a 6 out of 10!";
+	chat_ratings_8 = "I give it a 7 out of 10!";
+	chat_ratings_9 = "I give it a 8 out of 10!";
+	chat_ratings_10 = "I give it a 9 out of 10!";
+	chat_ratings_11 = "I give it a 10 out of 10!";
+	
 
 	-- // Tips
 
@@ -118,6 +602,7 @@ return {
 	guide_loremipsum_short = "Lorem ipsum";
 	guide_loremipsum = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 	guide_rules = "Game Rules";
+	guide_loading = "Setting up user interface, please wait...";
 	
 	guide_index_tutorial_button = "Tutorial";
 	guide_tutorial_gettingstarted_button = "Getting Started";
@@ -670,7 +1155,7 @@ The key to success is overcoming the handicap of your reduced range, learning to
 	guide_vampire_stats = [[
 You toss aside your humanity for a greater power, becoming an immortal vampire in the process.
 Your toolkit is optimized to the absolute for destruction and agility. Vampirism grants bodily manipulation, with adjusting your body temperature to critical degrees being some of the deadliest techniques.
-The best way to make this ability shine is by overwhelming your opponent with attacks and movement.
+Vampire is a very combo-oriented ability, due to relying on combos for the majority of its damage, having high combo damage, and possessing a few skills that aren't always safe to use recklessly. The best way to make this ability shine is by overwhelming your opponent with attacks and movement, while simultaneously accounting for your long end-lag on certain moves and always aiming for prioritizing landing your basic attacks (M1s) beyond all else.
 ]];
 	guide_vampire_neutral = "You swipe with your right hand, jab with your left hand, then kick the enemy away.";
 	guide_vampire_grab = "You grab the enemy and slice their neck then toss them away.";
@@ -681,5 +1166,5 @@ The best way to make this ability shine is by overwhelming your opponent with at
 	guide_vampire_freeze = "You take a defensive stance and cover your body in ice. If attacked by a physical move, you freeze the attacker in place and dropkick them.";
 	guide_vampire_eyes = "You charge the water in your eyes and fire two beams of pressurized liquid from them, piercing everyone in the way.";
 	guide_vampire_bud = "You create a small organism with your own cells and toss it. If it lands on anyone, the bud will attach to the brain of its new host and spit out 3 puddles of blood over time which can be absorbed by any vampire that walks over it, including yourself. The only exception is the bud's host.";
-	guide_vampire_slam = "You jump into the air then slam the ground with your fist. If used in the air, you perform a dropkick instead. Dropkicking an airborne enemy will attach them to your foot and kill them instantly if they are below 17% health.";
+	guide_vampire_slam = "You jump into the air then slam the ground with your fist. If used in the air, you perform a dropkick instead. Dropkicking an airborne enemy will attach them to your foot and kill them instantly if they are below 17% health, which can be easily achieved by chaining this move after hitting Great Flight.";
 }
